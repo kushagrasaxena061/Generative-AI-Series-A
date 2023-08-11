@@ -1,6 +1,6 @@
 LINK FOR THE WEBSITE :
 
-LINK = 
+LINK = https://generative-ai-series-a.vercel.app/
 
 
 INFO :
