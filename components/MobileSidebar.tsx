@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import {AiOutlineMenu} from "react-icons/ai"
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import Sidebar  from "@/components/Sidebar";
+import  Sidebar from "@/components/Sidebar";
 
 export const MobileSidebar = ({
   apiLimitCount = 0,
@@ -31,7 +31,7 @@ export const MobileSidebar = ({
         </Button>
       </SheetTrigger>
       <SheetContent side="left" className="p-0">
-        <Sidebar />
+        <Sidebar isPro={isPro} apiLimitCount={apiLimitCount} />
       </SheetContent>
     </Sheet>
   );
